@@ -1,0 +1,16 @@
+Error: ENOENT: no such file or directory, open '/home/rosalio/Escritorio/boilerplate-express/.tern-project'
+    at Object.openSync (node:fs:603:3)
+    at Object.func [as openSync] (node:electron/js2c/asar_bundle:2:1869)
+    at Object.readFileSync (node:fs:471:35)
+    at t.readFileSync (node:electron/js2c/asar_bundle:2:9212)
+    at Ternjs.mergeProjCfg (/root/.vscode/extensions/shannonliang.js-intellisense-3.0.17/server/out/vsc-tern.js:153:39)
+    at Ternjs.initialize (/root/.vscode/extensions/shannonliang.js-intellisense-3.0.17/server/out/vsc-tern.js:173:14)
+    at new Ternjs (/root/.vscode/extensions/shannonliang.js-intellisense-3.0.17/server/out/vsc-tern.js:46:14)
+    at /root/.vscode/extensions/shannonliang.js-intellisense-3.0.17/server/out/server-tern.js:35:19
+    at /root/.vscode/extensions/shannonliang.js-intellisense-3.0.17/server/node_modules/vscode-languageserver/lib/main.js:793:26
+    at handleRequest (/root/.vscode/extensions/shannonliang.js-intellisense-3.0.17/server/node_modules/vscode-jsonrpc/lib/main.js:361:27) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/home/rosalio/Escritorio/boilerplate-express/.tern-project'
+}
